@@ -49,12 +49,18 @@
 // var titles = document.querySelectorAll('.title')
 // console.log(titles)
 
-var odd = document.querySelectorAll('li:nth-child(odd)')
-for(var i = 0; i < odd.length; i++){
-    odd[i].style.backgroundColor = 'red'
+// var odd = document.querySelectorAll('li:nth-child(odd)')
+// for(var i = 0; i < odd.length; i++){
+//     odd[i].style.backgroundColor = 'red'
 
+// }
+
+var litm = document.querySelector('.list-group-item:nth-child(3)')
+litm.style.backgroundColor = 'green'
+var litms = document.getElementsByClassName('list-group-item')
+for(let i = 0; i<litms.length; i++){
+    litms[i].style.fontWeight = 'bold'
 }
-
 
 
 
