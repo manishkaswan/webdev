@@ -55,12 +55,19 @@
 
 // }
 
-var litm = document.querySelector('.list-group-item:nth-child(3)')
-litm.style.backgroundColor = 'green'
-var litms = document.getElementsByClassName('list-group-item')
-for(let i = 0; i<litms.length; i++){
-    litms[i].style.fontWeight = 'bold'
-}
+// var litm = document.querySelector('.list-group-item:nth-child(3)')
+// litm.style.backgroundColor = 'green'
+// var litms = document.getElementsByClassName('list-group-item')
+// for(let i = 0; i<litms.length; i++){
+//     litms[i].style.fontWeight = 'bold'
+// }
+
+
+var clnm = document.getElementsByClassName('group-item')
+clnm[0].textContent = 'manish'
+var tgnm = document.getElementsByTagName('li')
+console.log(tgnm)
+
 
 
 
