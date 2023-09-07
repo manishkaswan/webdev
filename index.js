@@ -66,7 +66,7 @@
 var clnm = document.getElementsByClassName('group-item')
 clnm[0].textContent = 'manish'
 var tgnm = document.getElementsByTagName('li')
-console.log(tgnm)
+tgnm[4].textContent = 'manish kumar'
 
 
 
