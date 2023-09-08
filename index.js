@@ -63,11 +63,13 @@
 // }
 
 
-var clnm = document.getElementsByClassName('group-item')
-clnm[0].textContent = 'manish'
-var tgnm = document.getElementsByTagName('li')
-tgnm[4].textContent = 'manish kumar'
+// var clnm = document.getElementsByClassName('group-item')
+// clnm[0].textContent = 'manish'
+// var tgnm = document.getElementsByTagName('li')
+// tgnm[4].textContent = 'manish kumar'
 
 
-
+var sitm = document.querySelectorAll('.list-group-item')
+sitm[1].style.backgroundColor = 'green'
+sitm[2].style.display = 'none'
 
