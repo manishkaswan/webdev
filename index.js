@@ -69,7 +69,26 @@
 // tgnm[4].textContent = 'manish kumar'
 
 
-var sitm = document.querySelectorAll('.list-group-item')
-sitm[1].style.backgroundColor = 'green'
-sitm[2].style.display = 'none'
+// var sitm = document.querySelectorAll('.list-group-item')
+// sitm[1].style.backgroundColor = 'green'
+// sitm[2].style.display = 'none'
 
+var bilstr = document.createElement('div')
+var bilstrh = document.createTextNode('HEllo')
+bilstr.appendChild(bilstrh)
+var h1 = document.querySelector('header h1')
+
+var getlstr = document.querySelector('header .container')
+getlstr.insertBefore(bilstr, h1)
+
+
+
+
+
+var ulth = document.createElement('div')
+var ulthli = document.createTextNode('Hello World')
+ulth.appendChild(ulthli)
+console.log(ulth)
+var li = document.querySelector('container li')
+var fndlii = document.querySelector('ul .list-group-item')
+fndlii.insertBefore(ulth, li)
